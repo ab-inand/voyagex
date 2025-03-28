@@ -12,7 +12,7 @@
     "@headlessui/react": "^1.7.18",
     "@heroicons/react": "^2.1.1",
     "@react-three/drei": "^9.97.0",
-    "@react-three/fiber": "^8.15.16",
+    "@react-three/fiber": "8.2.2",
     "framer-motion": "^11.0.3",
     "framer-motion-3d": "^11.0.5",
     "next": "14.1.0",
