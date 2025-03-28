@@ -1,72 +1,73 @@
-# VoyageX - Next-Gen Travel Platform
+# VoyageX - AI-Powered Travel Planning Platform
 
-A futuristic travel platform that combines immersive 3D experiences, AI personalization, and interactive storytelling to revolutionize the way people plan and experience travel.
+A futuristic travel planning platform that combines AI technology with immersive 3D experiences to help users plan their perfect getaway.
 
 ## Features
 
-- 🌍 Interactive 3D Globe Explorer
-- 🤖 AI-Powered Travel Concierge
-- 🎮 Virtual Reality Previews
-- 📱 Responsive Design
-- 🎨 Modern UI with Glassmorphism
-- ⚡ Smooth Animations
-- 🔒 Secure Authentication
-- 💎 NFT Integration
+- 🤖 AI Travel Designer with voice interaction
+- 🌍 Interactive 3D Globe visualization
+- 🎯 Personalized travel recommendations
+- 💬 AI Concierge for real-time assistance
+- 🎨 Modern, holographic UI design
+- 📱 Responsive design for all devices
 
 ## Tech Stack
 
 - Next.js 14
 - TypeScript
-- Three.js / React Three Fiber
-- Framer Motion
 - Tailwind CSS
-- Headless UI
+- Framer Motion
+- Three.js
+- React Three Fiber
+- Speech Recognition API
 
 ## Getting Started
 
 1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/voyax.git
-cd voyax
-```
+   ```bash
+   git clone https://github.com/ab-inand/voyagex.git
+   ```
 
 2. Install dependencies:
-```bash
-npm install
-```
+   ```bash
+   npm install
+   ```
 
 3. Run the development server:
-```bash
-npm run dev
-```
+   ```bash
+   npm run dev
+   ```
 
-4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## Project Structure
 
 ```
-src/
-├── app/                 # Next.js app directory
-├── components/          # Reusable components
-├── styles/             # Global styles
-└── types/              # TypeScript type definitions
+voyagex/
+├── src/
+│   ├── app/                 # Next.js app router pages
+│   ├── components/          # React components
+│   │   ├── 3d/            # 3D visualization components
+│   │   ├── ai/            # AI-related components
+│   │   ├── features/      # Feature-specific components
+│   │   └── ui/            # UI components
+│   └── styles/            # Global styles
+├── public/                # Static assets
+└── package.json          # Project dependencies
 ```
+
+## Key Components
+
+- `LexiAvatar`: AI assistant avatar with different modes
+- `QuestionFlow`: Interactive questionnaire for travel preferences
+- `HolographicOverlay`: Futuristic UI overlay effect
+- `InteractiveGlobe`: 3D globe visualization
+- `AIChatbot`: Real-time chat assistance
 
 ## Contributing
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-- Three.js for 3D graphics
-- Framer Motion for animations
-- Tailwind CSS for styling
-- Next.js team for the amazing framework
+This project is licensed under the MIT License - see the LICENSE file for details.
